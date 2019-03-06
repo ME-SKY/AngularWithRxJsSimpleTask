@@ -13,8 +13,9 @@ $default_background: #cecdc4;
 #manage_panel{
   align-items: center;
   z-index: 3;
-  height: 30px;
+  height: 40px;
   display: flex;
+  //margin-bottom: 5px;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 5% 0;
@@ -52,7 +53,7 @@ $default_background: #cecdc4;
 #editor-main{
   display: flex;
   flex-direction: column;
-  margin: 9px 5% 0;
+  margin: 0 5% 0;
   background: white;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.16), 0 0 1px 1px rgba(0, 0, 0, .12);
   border-radius: 3px;
